@@ -99,7 +99,7 @@ class NeuralNet:
 
         results = pd.DataFrame(results)
         print(results)
-        markdown_table = results.to_markdown(index=False)
+        #markdown_table = results.to_markdown(index=False)
         #print(markdown_table)
 
         return results

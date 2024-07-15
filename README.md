@@ -13,18 +13,12 @@ module is installed in the environment
 Dataset is in this link:
 https://archive.ics.uci.edu/dataset/53/iris
 
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
-
-Dataset is here https://archive.ics.uci.edu/dataset/53/iris
-
 ## Report Summary
 All three, tanh, log, and ReLu had perfect scores with test accuracy of 1.0.
 However, the Logistic Activation Function seemed to have performed the best because the loss function was the lowest at .00423182 with a test accuracy of 1.0
 
 ## Model History Plots
-
+![Model History Plots](./Loss_curves.png)
 
 ## Model History in Tabular Form
 | activation   |   learning_rate |   max_iterations |   num_hidden_layers |   train_acc |   test_acc |   train_loss |   test_loss |
